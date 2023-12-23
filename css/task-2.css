@@ -1,7 +1,9 @@
 img {
   display: block;
 }
+
 .gallery {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
 
