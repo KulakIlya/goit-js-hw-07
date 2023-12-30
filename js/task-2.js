@@ -29,12 +29,20 @@ const galleryList = document.querySelector('.gallery');
 
 // 1 variant
 
+// const galleyFragment = document.createDocumentFragment();
+
 // images.forEach(({ url, alt }) => {
+//   const li = document.createElement('li');
+
 //   const img = document.createElement('img');
+
 //   img.src = url;
 //   img.alt = alt;
-//   galleryList.append(img);
+//   li.append(img);
+//   galleyFragment.appendChild(li);
 // });
+
+// galleryList.append(galleyFragment);
 
 // 2 variant
 const galleryListMarkup = images
